@@ -1,0 +1,37 @@
+@media (max-width: 700px) {
+    .moviesearch--form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .moviesearch--input {
+        width: 350px;
+        border-radius: 10px 10px 0px 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .moviesearch--button {
+        width: 350px;
+        border-radius: 0px 0px 10px 10px;
+        font-size: 15px;
+    }
+
+    .details--title {
+        font-size: 60px;
+    }
+
+    .details--overview {
+        font-size: 20px;
+    }
+
+    .details--rating {
+        margin-top: 20px;
+        background: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(221, 45, 45);
+    }
+}

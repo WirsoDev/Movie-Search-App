@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: rgb(221, 45, 45);
+}
+
+::selection {
+    color: white;
+    background: rgb(221, 45, 45);
+}
+
+:root {
+    --backgorund-color: #dedede;
+    --color-comps: #c7c7c7;
+    --color-title: #666666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--backgorund-color);
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+.app {
+    margin-top: 75px;
+    margin-bottom: 80px;
+}
+
+.moviesearch--form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.moviesearch--input {
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 11px;
+    width: 800px;
+    border: none;
+    background-color: white;
+    border-radius: 16px 0px 0px 16px;
+    max-width: 800px;
+    font-size: 25px;
+}
+
+.moviesearch--button {
+    color: white;
+    padding: 10px;
+    border: none;
+    background-color: rgb(221, 45, 45);
+    width: 150px;
+    font-weight: 700;
+    border-radius: 0px 16px 16px 0px;
+    cursor: pointer;
+    transition: 300ms;
+    font-size: 25px;
+}
+
+.moviesearch--button:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
